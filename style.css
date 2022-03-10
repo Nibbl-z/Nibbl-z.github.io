@@ -95,3 +95,20 @@ figcaption{
 #active{
   background-color:#4f42ff1;
 }
+@keyframes end {
+  0%   {color:red;}
+  25%  {color:yellow;}
+  50%  {color:blue;}
+  75%  {color:green;}
+  100% {color:purple;}
+}
+
+/* The element to apply the animation to */
+.END {
+  position: relative;
+  font-size: 100px;
+  animation-name: end;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
