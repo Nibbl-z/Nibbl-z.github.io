@@ -96,11 +96,11 @@ figcaption{
   background-color:#4f42ff1;
 }
 @keyframes end {
-  0%   {color:red;}
+  0%   {color:red;transform: rotate(-20deg);}
   25%  {color:yellow;}
   50%  {color:blue;}
   75%  {color:green;}
-  100% {color:purple;}
+  100% {color:purple;transform: rotate(20deg);}
 }
 
 /* The element to apply the animation to */
